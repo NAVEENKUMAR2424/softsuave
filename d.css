@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    flex-direction: row;
+}
+:right{
+    display: flex;
+    flex-direction: column;
+}
+
+#left{
+    width: 50%;
+    height: 635px;
+    background-color: aqua;
+}
+
+#left h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 615px;
+}
+form{
+
+    padding: 50px 100px 50px 100px;
+    width: fit-content;
+    margin: auto;
+    margin-left: 100px;
+    margin-top: 12.5%;
+
+    
+}
+
+form input{
+    width: 190px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color:blue;
+    
+}
+
+#in{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+#ss{
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#sub{
+    margin-left: 60px;
+}
+
+#button{
+    width: 200px;
+    height: 30px;
+    background-color: green;
+    
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+
+}
+#s{
+    display: flex;
+    flex-direction: row;
+    margin-top: 31%;
+    font-size: 12px;
+}
+
+#fo{
+    padding:  0 0 0 20px;
+}
+
+#foo{
+    margin-left: 300px;
+}
+
+#li{
+    margin-left: 100px;
+}
